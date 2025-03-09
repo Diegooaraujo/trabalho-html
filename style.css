@@ -183,6 +183,7 @@ table{
     transform: translate(-50%, -50%);
     display: flex;
     border-radius: 20px;
+    flex-direction:row-reverse;
 
 }
 .apresentacao{
@@ -333,3 +334,82 @@ table{
 }
 
 /*fim pagina julia*/
+
+
+@media (max-width: 768px) {
+    .container-principal {
+        width: 90%;
+    }
+
+    .container-principal h1 {
+        font-size: 50px;
+    }
+
+    .container-paginas {
+        flex-direction: column;
+    }
+
+    .container-paginas h2 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .img-paginas {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .container h2 {
+        font-size: 30px;
+    }
+
+    .paginas-link {
+        padding: 5px !important;
+    }
+
+    #container {
+        width: 90%;
+        top: 10%;
+        flex-direction: column-reverse;
+        left: 50%;
+        transform: translate(-50%, 0);
+        flex-direction: column;
+    }
+    .imagem img{
+        margin-top: 20px;
+    }
+
+    .apresentacao, .imagem {
+        width: 100%;
+    }
+
+    .apresentacao h1 {
+        font-size: 40px;
+    }
+
+    .apresentacao-desc {
+        width: 90%;
+    }
+
+    .botoes {
+        padding: 5px 20px;
+        margin: 5px;
+    }
+
+    .imagem_shadow {
+        right: 10%;
+        top: 50px;
+    }
+
+    #img-julia {
+        width: 50%;
+    }
+    
+}
