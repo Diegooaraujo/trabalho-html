@@ -25,10 +25,11 @@
     margin: 0;
     font-family: "poppins";
     font-family: "Poppins", sans-serif;
+    color: white;
 }
 
 body{
-    background-color:antiquewhite;
+    background-color:black;
     
     
 }
@@ -97,7 +98,7 @@ body{
 
 .container{
     margin: auto;
-    box-shadow: 2px 2px 12px black;
+    
     width: 50%;
     border-radius: 20px;
     position: absolute;
@@ -114,6 +115,7 @@ body{
     font-size: 40px;
     text-align: center;
     padding: 20px;
+    color: white;
     
     
 }
@@ -139,8 +141,10 @@ body{
 }
 .paginas-link{
     padding: 10px !important;
-    color: white;
+    margin-bottom: 30px;
+   
 }
+
 .paginas-link a{
     color: var(--bg-color);
     text-decoration: none;
@@ -283,13 +287,14 @@ table{
 /*fim pagina diego*/
 
 /*pagina-kaua*/
+#container-kaua{
+    box-shadow: 2px 2px 12px var(--bg-color-kaua);
+}
 
 #img-kaua{
     border-radius: 20px;
 }
-.links-kaua{
-    color: black;
-}
+
 .links-kaua a{
     color: var(--bg-color-kaua);
 }
@@ -299,6 +304,9 @@ table{
 /*fim pagina-kaua*/
 
 /*pagina karine*/
+#container-karine{
+    box-shadow: 2px 2px 12px var(--bg-colo-karine);
+}
 
 .links-karine a{
      color: var(--bg-colo-karine);
@@ -307,4 +315,21 @@ table{
     color: var(--bg-colo-karine)
 }
 
+
 /*fim pagina karine*/
+/*pagina julia*/
+#container-julia{
+    box-shadow: 2px 2px 12px var(--bg-color-julia);
+}
+#img-julia{
+    width: 200px;
+    border-radius: 30px;
+}
+.links-julia a{
+    color: var(--bg-color-julia);
+}
+#cor-julia{
+    color: var(--bg-color-julia);
+}
+
+/*fim pagina julia*/
