@@ -30,7 +30,70 @@
 body{
     background-color:antiquewhite;
     
+    
 }
+
+/*pagina principal*/
+.container-principal{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-direction: column;
+    width: 1280px;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 20px;
+    
+
+}
+.container-principal h1{
+    font-size: 70px;
+}
+
+.container-paginas{
+    display: flex;
+   align-items: center;
+   width: 100%;
+
+   padding: 20px;
+   margin: 10px 0;
+   
+  
+
+}
+
+.container-paginas h2{
+    text-align: center;
+    width: 50%;
+    font-size: 70px;
+}
+.container-paginas h2 a{
+    text-decoration: none;
+}
+
+.img-paginas{
+    width: 500px;
+   height: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px black;
+    margin: 20px;
+}
+#diego a{
+    color: var(--bg-color);
+}
+#karine a{
+    color: var(--bg-colo-karine);
+}
+#julia a{
+    color: var(--bg-color-julia);
+}
+#kaua a
+{
+    color: var(--bg-color-kaua);
+}
+
+/*fim pagina principal*/
 
 .container{
     margin: auto;
