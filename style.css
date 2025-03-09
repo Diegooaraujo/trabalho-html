@@ -1,9 +1,98 @@
-
 :root{
+    /*diego*/
     --bg-color: rgb(0, 195, 255);
     --text-color:white;
     --hover-color:rgb(3, 115, 150);
+    /*diego*/
+    /*karine*/
+    --bg-colo-karine: rgb(160, 4, 4);
+    --text-color-karine:white;
+    --hover-color-karine:rgb(110, 6, 6);
+    /*karine*/
+    /*julia*/
+    --bg-color-julia: rgb(92, 7, 172);
+    --text-color-julia:white;
+    --hover-color-julia:rgb(60, 2, 114);
+    /*julia*/
+    /*kaua*/
+    --bg-color-kaua: rgb(59, 107, 197);
+    --text-color-kaua:white;
+    --hover-color-kaua:rgb(6, 45, 116);
+    /*kaua*/
 }
+
+*{
+    margin: 0;
+    font-family: "poppins";
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color:antiquewhite;
+    
+}
+
+.container{
+    margin: auto;
+    box-shadow: 2px 2px 12px black;
+    width: 50%;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+
+.container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 12px black;
+}
+
+
+.container p{
+    padding: 20px;
+   
+   
+}
+.paginas{
+    display: flex;
+}
+.paginas-link{
+    padding: 10px !important;
+    color: white;
+}
+.paginas-link a{
+    color: var(--bg-color);
+    text-decoration: none;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px; 
+ 
+}
+
+
+/*pagina diego*/
+
+
 
 *{
     margin: 0;
@@ -54,7 +143,7 @@
     color: var(--bg-color);
     font-family: "VT323", monospace;
 }
-.apresentacao p{
+.apresentacao-desc{
     
     color: var(--text-color);
     width: 400px;
@@ -128,4 +217,31 @@
 }
 
 
+/*fim pagina diego*/
 
+/*pagina-kaua*/
+
+#img-kaua{
+    border-radius: 20px;
+}
+.links-kaua{
+    color: black;
+}
+.links-kaua a{
+    color: var(--bg-color-kaua);
+}
+.negrito{
+    color: var(--bg-color-kaua);
+}
+/*fim pagina-kaua*/
+
+/*pagina karine*/
+
+.links-karine a{
+     color: var(--bg-colo-karine);
+}
+#cor{
+    color: var(--bg-colo-karine)
+}
+
+/*fim pagina karine*/
