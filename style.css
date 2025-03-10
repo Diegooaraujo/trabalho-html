@@ -212,7 +212,7 @@ table{
     width: 0;
     text-align: center;
     font-size: 50px;
-    color: --text-color:white;;
+    color: var(--text-color);
     margin-bottom: 20px; 
     font-family: "VT323", monospace;
     animation: typing 8s steps(30) infinite;
