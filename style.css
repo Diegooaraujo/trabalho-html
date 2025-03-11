@@ -357,6 +357,11 @@ body.claro {
     color: var(--text-color);
     border-radius: 5px;
 }
+.botoes-insta img{
+    width: 30px;
+    margin-right: 10px;
+
+}
 
 
 /*fim pagina karine*/
