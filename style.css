@@ -346,6 +346,17 @@ body.claro {
 #cor{
     color: var(--bg-colo-karine)
 }
+.botao-insta-karine{
+    background-color: var(--bg-colo-karine);
+    padding: 10px 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 5px;
+}
 
 
 /*fim pagina karine*/
