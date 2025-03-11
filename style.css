@@ -346,7 +346,7 @@ body.claro {
 #cor{
     color: var(--bg-colo-karine)
 }
-.botao-insta-karine{
+.botao-insta{
     background-color: var(--bg-colo-karine);
     padding: 10px 30px;
     margin: 10px;
