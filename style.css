@@ -360,6 +360,7 @@ body.claro {
 .botao-insta>img{
     width: 30px;
     margin-right: 10px;
+    box-shadow: none !important;
 
 }
 
