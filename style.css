@@ -357,7 +357,7 @@ body.claro {
     color: var(--text-color);
     border-radius: 5px;
 }
-.botao-insta img{
+.botao-insta>img{
     width: 30px;
     margin-right: 10px;
 
